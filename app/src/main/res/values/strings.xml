@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Instagallery</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">1pbDe2oG8Iw9c6cx5CtHn3wyLM6e6qv2N5RHTJLF</string>
+    <string name="back4app_client_key">mmD0X3svtSTC3Jnp2ojtklUNxDXpIdlGmV8stWFU</string>
+    <string name="userhint">username</string>
+    <string name="passhint">password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
