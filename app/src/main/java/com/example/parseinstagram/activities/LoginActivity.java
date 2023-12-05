@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         Glide.with(this)
-                .load(R.drawable.insta)
+                .load(R.drawable.instagallery)
                 .into(img);
 
         // login button click

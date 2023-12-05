@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     android:background="@color/grey_black"
     android:elevation="17dp"
-    app:titleTextColor="@color/white">
+    android:visibility="visible"
+    app:titleTextColor="@color/white"
+    tools:visibility="visible">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +23,13 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="124dp"
+            android:layout_height="35dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:visibility="invisible"
-            app:drawableStartCompat="@drawable/ic_instagram_text_icon"
+            android:textSize="8sp"
+            android:visibility="visible"
+            app:drawableStartCompat="@drawable/instagallery"
             app:drawableTint="#FFFFFF" />
 
         <ImageButton

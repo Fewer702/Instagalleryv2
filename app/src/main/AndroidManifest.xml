@@ -16,9 +16,9 @@
     <application
         android:name=".ParseApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ig_launcher"
+        android:icon="@mipmap/ig_launcherb"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ig_launcher"
+        android:roundIcon="@mipmap/ig_launcherb"
         android:supportsRtl="true"
         android:theme="@style/Theme.ParseInstagram"
         android:usesCleartextTraffic="true">

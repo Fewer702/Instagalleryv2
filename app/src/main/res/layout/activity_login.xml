@@ -15,8 +15,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="135dp"
         android:layout_marginEnd="142dp"
-        android:visibility="invisible"
-        tools:srcCompat="@drawable/insta" />
+        android:visibility="visible"
+        tools:srcCompat="@drawable/instagallery" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
