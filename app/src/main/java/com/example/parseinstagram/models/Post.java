@@ -72,8 +72,10 @@ public class Post extends ParseObject {
     public static ArrayList<String> fromJsonArray(JSONArray jsonArray) throws JSONException {
         ArrayList<String> userList = new ArrayList<String>();
         try {
-            for (int i = 0; i < jsonArray.length(); i++){
-                userList.add(jsonArray.getJSONObject(i).getString("objectId"));
+            for (int i = 0; jsonArray != null && i < jsonArray.length(); i++){
+                if(!(jsonArray.get(i) instanceof String)){
+                    userList.add(jsonArray.getJSONObject(i).getString("objectId"));
+                }
             }
         }catch (NullPointerException e){
             e.printStackTrace();
